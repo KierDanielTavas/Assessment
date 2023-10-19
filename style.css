@@ -1,0 +1,257 @@
+html,
+body,
+.header,
+.logo,
+.icons,
+.icon,
+span .icon-button .text-content {
+  font-family: Arial, sans-serif;
+}
+html,
+body {
+  height: 100%;
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-image: url("img/kellywoodbuilder2.fw.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+
+.header {
+  position: relative;
+  height: 100%;
+}
+
+.logo {
+  position: absolute;
+  top: 5%;
+  left: 17%;
+}
+
+.icons {
+  position: absolute;
+  top: 5%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+}
+
+.icon {
+  margin-right: 15px;
+  text-align: center;
+  display: flex;
+  align-items: center;
+}
+
+.icon img {
+  max-width: 10px;
+  max-height: 10px;
+  margin-right: 5px;
+}
+
+.icon span {
+  display: inline;
+  font-size: 10px;
+  font-weight: bold;
+}
+.icon-button {
+  background: linear-gradient(to bottom, #757474, #1d1c1c, #757474);
+  color: #fff;
+  padding: 5px 18px;
+  border: none;
+  cursor: pointer;
+  margin-right: 3px;
+  font-size: 10px;
+  font-weight: bold;
+  border-top-right-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.icon-button:hover {
+  background: linear-gradient(to bottom, #61d851, #1d8808, #61d851);
+}
+.button-group {
+  position: absolute;
+  top: 13%;
+  left: 50%;
+  display: flex;
+  align-items: center;
+  margin-right: 10px;
+}
+.selected {
+  background: linear-gradient(to bottom, #61d851, #1d8808, #61d851);
+}
+.selected:hover {
+  background: linear-gradient(to bottom, #757474, #1d1c1c, #757474);
+}
+.carousel {
+  position: absolute;
+  top: 16%;
+  left: 17%;
+}
+.carousel img {
+  max-width: 90%;
+  max-height: 50%;
+}
+.gallery {
+  position: absolute;
+  top: 65%;
+  left: 17%;
+  display: flex;
+  align-items: center;
+}
+.gallery img {
+  max-width: 25%;
+  max-height: 50%;
+  margin-right: 10px;
+}
+.text-header {
+  position: absolute;
+  top: 80%;
+  left: 17%;
+  display: flex;
+  align-items: center;
+}
+.text-header h3 {
+  font-size: 12px;
+  font-weight: 200;
+}
+.green-text {
+  color: green;
+}
+.text-header h3::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: 5px;
+  width: 320%;
+  height: 1px;
+  background: #ccc;
+}
+.text-content p {
+  position: absolute;
+  top: 84%;
+  left: 17%;
+  display: flex;
+  align-items: center;
+  font-size: 12px;
+  font-weight: 200;
+  line-height: 1.5;
+}
+.text-content p {
+  font-size: 9px;
+  font-weight: 100;
+}
+.readmore a {
+  position: absolute;
+  top: 93%;
+  left: 50%;
+  display: flex;
+  font-size: 10px;
+  font-weight: bold;
+}
+.container {
+  max-width: 250px;
+  margin: 0 auto;
+  padding: 15px;
+  background-color: #c9c6c6;
+  border-radius: 5px;
+  position: absolute;
+  top: 65%;
+  left: 65%;
+}
+.container h1 {
+  position: relative;
+  color: green;
+  font-size: 15px;
+  left: 27px;
+}
+
+.input-container {
+  margin-bottom: 10px;
+  position: relative;
+}
+input,
+textarea {
+  width: 100%;
+  padding: 5px;
+  background-color: #b3b0b0;
+  border: 1px solid #ffffff;
+  outline: none;
+}
+input::placeholder,
+textarea::placeholder {
+  color: #000000;
+  font-size: 10px;
+  position: absolute;
+  left: 8px;
+  top: 50%;
+  transform: translateY(-50%);
+}
+.button {
+  width: 30%;
+  background: linear-gradient(to bottom, #61d851, #1d8808, #61d851);
+  color: #fff;
+  border: none;
+  padding: 5px;
+  font-size: 8px;
+  cursor: pointer;
+  border-radius: 5px;
+}
+.button-container {
+  text-align: right;
+}
+.button:hover {
+  background: linear-gradient(to bottom, #757474, #1d1c1c, #757474);
+}
+.profile {
+  position: absolute;
+  max-width: 15%;
+  max-height: 50%;
+}
+.footer {
+  position: absolute;
+  padding: 10px;
+  left: 16%;
+}
+.footer a {
+  color: #000000;
+  text-decoration: none;
+  margin: 0px;
+  font-size: 10px;
+}
+
+.footer a:hover {
+  text-decoration: underline;
+  color: green;
+}
+
+.circle {
+  display: inline-block;
+  width: 5px;
+  height: 5px;
+  background-color: #000000;
+  border-radius: 50%;
+  margin: 0px;
+}
+.footer a.picked {
+  color: green;
+  font-weight: bold;
+}
+.footer-text {
+  margin-top: 30px;
+}
+
+.footer-text p {
+  position: absolute;
+  left: 17%;
+  font-size: 8px;
+  color: #000;
+}
+.footer a.trademark {
+  color: rgb(70, 67, 67);
+  font-weight: 100;
+}
